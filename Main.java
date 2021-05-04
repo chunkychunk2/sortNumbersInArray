@@ -21,7 +21,7 @@ public class Main {
     }
 
     public static void sort(int[] array) {
-        //напишите тут ваш код
+        // Selection sort
         for (int i = 0; i < array.length; i++) {
         /*Предполагаем, что первый элемент (в каждом
            подмножестве элементов) является минимальным */
